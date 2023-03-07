@@ -1,0 +1,9 @@
+.payed-status{
+    color: chartreuse;
+}
+.open-status{
+    color: darkorange;
+}
+.cancel-status{
+    color: brown;
+}
