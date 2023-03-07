@@ -16,8 +16,8 @@ export default function Login() {
     userManager.signinRedirect()
   }
   return (
-    <div>
-      <button onClick={login}>LOGIN</button>
+    <div className='align-middle d-flex'>
+      <button className='btn btn-info align-middle' onClick={login}>LOGIN</button>
     </div>
   )
 }
