@@ -64,7 +64,7 @@ export default function Home({ user }) {
 
     return (
         <div>
-            <button onClick={() => { setSelectedViewOrder(true); console.log(selectedViewOrders); }}>View Orders</button>
+            <button onClick={() => { setSelectedViewOrder(true) }} className='btn btn-primary' disabled = {selectedViewOrders}>View Orders</button>
             {currentCoffee === null ?
                 (
                     (currentOrder === null && selectedViewOrders === false) ?

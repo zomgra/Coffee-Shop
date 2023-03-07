@@ -44,7 +44,6 @@ export default function IngredientsContainer({ coffeeId, coffee, createOrder }) 
                                 <input className="form-check-input" type="checkbox" id={ing.id} value={ing.id} onChange={(e) => {
                                     if (e.target.checked) {
                                         setSelectedIngredientsId([...selectedIngredientsId, ing.id]);
-                                        console.log(selectedIngredientsId);
                                     } else {
                                         setSelectedIngredientsId(selectedIngredientsId.filter((id) => id !== ing.id));
                                     }
